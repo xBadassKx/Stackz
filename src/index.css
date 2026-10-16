@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Pro Audio Dark Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Custom range sliders for audio controls */
+input[type="range"] {
+  accent-color: #3b82f6;
+}
+
+/* Disable text selection during drag and drop */
+.select-none {
+  user-select: none;
+  -webkit-user-select: none;
+}

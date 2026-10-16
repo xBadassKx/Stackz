@@ -1,0 +1,6 @@
+{
+  "name": "Sample Stakz - AU / VST Plugin for Logic Pro",
+  "description": "Professional AU/VST3 sample & loop manager plugin with automatic tempo matching, waveform visualizer, drag-and-drop Logic Pro workflow, MIDI mapping, and offline cloud synchronization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
